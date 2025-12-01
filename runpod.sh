@@ -2,10 +2,6 @@
 
 set -ex
 
-cd /tmp/
-git clone https://github.com/gbg108/ComfyUI-Bot-Wan-Template.git
-cd ComfyUI-Bot-Wan-Template/
-chmod +x download_loras.sh
 ./download_loras.sh
 
 cd /ComfyUI/models/diffusion_models
